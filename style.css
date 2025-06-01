@@ -24,7 +24,12 @@
   width: 15%;
   background-color: #F97A00;
 }
-.middle {
+.middle1,
+.middle2,
+.middle3,
+.middle4,
+.middle5,
+.middle6 {
   grid-area: middle;
   background-color: #16610E;
 }
