@@ -1,18 +1,18 @@
 @charset "utf-8";
 html, body {
-	margin: 0;
+    margin: 0;
     box-sizing: border-box;
     height: 100vh;
 }
 body {
-	margin: 0;
+    margin: 0;
     box-sizing: border-box;
     border: solid red 5px;
 }
 .grid-container {
   display: grid;
   grid-template-areas: 
-  	'left nav nav nav nav nav nav right'
+    'left nav nav nav nav nav nav right'
     'left header header header header header header right' 
     'left middle1 middle2 middle3 middle4 middle5 middle6 right' 
     'left footer footer footer footer footer footer right';
