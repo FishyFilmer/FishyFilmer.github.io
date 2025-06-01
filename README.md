@@ -1,2 +1,2 @@
 # FishyFilmer.github.io
-Practice Website
+EcoFriendly Clothing Website
