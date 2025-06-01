@@ -6,13 +6,14 @@ header {
 nav {
     color:#F97A00
 }
-.container {
-    display: grid;
-    border-width: 5px;
-    border-color: black;
-    gap: 20px;
-}
-.container > div {
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'left header header header header right' 
+    'left middle middle middle middle right' 
+    'left footer footer footer footer right';
+} 
+.grid-container > div {
     color: #FED16A;
     padding: 10px;
 }
