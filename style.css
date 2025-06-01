@@ -2,21 +2,21 @@
 .grid-container {
   display: grid;
   grid-template-areas: 
-  	'left nav nav nav nav right'
-    'left header header header header right' 
-    'left middle middle middle middle right' 
-    'left footer footer footer footer right';
+  	'left nav nav nav nav nav nav right'
+    'left header header header header header header right' 
+    'left middle1 middle2 middle3 middle4 middle5 middle6 right' 
+    'left footer footer footer footer footer footer right';
 } 
 .header {
   grid-area: header;
   background-color: #16610E;
-  padding: 10px;
   width: 1000px;
 }
 .left,
 .right,
 .middle,
-.nav {
+.nav,
+.header {
   padding: 10px;
 }
 .left {
