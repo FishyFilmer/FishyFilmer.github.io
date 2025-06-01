@@ -1,11 +1,4 @@
 @charset "utf-8";
-
-header {
-    color: #F97A00;
-}
-nav {
-    color:#F97A00
-}
 .grid-container {
   display: grid;
   grid-template-areas: 
@@ -13,9 +6,32 @@ nav {
     'left middle middle middle middle right' 
     'left footer footer footer footer right';
 } 
-.grid-container > div {
-    color: #FED16A;
-    padding: 10px;
+.header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+.left,
+.middle,
+.right {
+  padding: 10px;
+}
+.left {
+  grid-area: left;
+}
+.middle {
+  grid-area: middle;
+}
+.right {
+  grid-area: right;
+}
+.footer {
+  grid-area: footer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
 }
 h1 {
     color: #FED16A;
