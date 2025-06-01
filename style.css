@@ -9,7 +9,7 @@
 } 
 .header {
   grid-area: header;
-  background-color: #f1f1f1;
+  background-color: #16610E;
   padding: 10px;
   text-align: center;
 }
@@ -21,20 +21,23 @@
 }
 .left {
   grid-area: left;
+  background-color: #F97A00;
 }
 .middle {
   grid-area: middle;
+  background-color: #16610E;
 }
 .right {
   grid-area: right;
+  background-color: #F97A00;
 }
 .nav {
   grid-area: nav;
-  background-color: #113131;
+  background-color: #16610E;
 }
 .footer {
   grid-area: footer;
-  background-color: #f1f1f1;
+  background-color: #16610E;
   padding: 10px;
   text-align: center;
 }
@@ -57,9 +60,6 @@ h5 {
 }
 h6 {
     color: #FED16A;
-}
-body {
-    background-color: #16610E;
 }
 p {
     color: #FED16A;
