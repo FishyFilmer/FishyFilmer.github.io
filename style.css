@@ -1,4 +1,14 @@
 @charset "utf-8";
+html, body {
+	margin: 0;
+    box-sizing: border-boxl;
+    height: 100vh;
+}
+body {
+	margin: 0;
+    box-sizing: border-box;
+    border: solid red 5px;
+}
 .grid-container {
   display: grid;
   grid-template-areas: 
@@ -6,16 +16,13 @@
     'left header header header header header header right' 
     'left middle1 middle2 middle3 middle4 middle5 middle6 right' 
     'left footer footer footer footer footer footer right';
+    height: 100%;
 } 
 .header {
   grid-area: header;
   background-color: #16610E;
 }
-.left,
-.right,
-.middle1,
-.nav,
-.header {
+.grid-container > div {
   padding: 10px;
 }
 .left {
@@ -44,7 +51,6 @@
   padding: 10px;
 }
 
-
 h1 {
     color: #FED16A;
 }
@@ -66,7 +72,6 @@ h6 {
 p {
     color: #FED16A;
 }
-
 
 @media (max-width: 600px) {
   .grid-container  {
