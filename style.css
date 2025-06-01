@@ -2,16 +2,16 @@
 .grid-container {
   display: grid;
   grid-template-areas: 
-  	'left nav nav nav nav nav nav right'
-    'left header header header header header header right' 
-    'left middle middle middle middle middle middle right' 
-    'left footer footer footer footer footer footer right';
+  	'left nav nav nav nav right'
+    'left header header header header right' 
+    'left middle middle middle middle right' 
+    'left footer footer footer footer right';
 } 
 .header {
   grid-area: header;
   background-color: #16610E;
   padding: 10px;
-  text-align: center;
+  width: 1000px;
 }
 .left,
 .right,
@@ -25,6 +25,7 @@
 }
 .middle {
   grid-area: middle;
+  width: 1000px;
   background-color: #16610E;
 }
 .right {
@@ -33,13 +34,14 @@
 }
 .nav {
   grid-area: nav;
+  width: 1000px;
   background-color: #16610E;
 }
 .footer {
   grid-area: footer;
   background-color: #16610E;
   padding: 10px;
-  text-align: center;
+  width: 1000px;
 }
 
 
