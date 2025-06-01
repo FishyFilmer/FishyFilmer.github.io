@@ -21,15 +21,16 @@
 }
 .left {
   grid-area: left;
+  width: 15%;
   background-color: #F97A00;
 }
 .middle {
   grid-area: middle;
-  width: 1000px;
   background-color: #16610E;
 }
 .right {
   grid-area: right;
+  width: 15%;
   background-color: #F97A00;
 }
 .nav {
