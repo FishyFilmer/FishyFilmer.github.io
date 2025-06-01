@@ -10,18 +10,16 @@
 .header {
   grid-area: header;
   background-color: #16610E;
-  width: 1000px;
 }
 .left,
 .right,
-.middle,
+.middle1,
 .nav,
 .header {
   padding: 10px;
 }
 .left {
   grid-area: left;
-  width: 15%;
   background-color: #F97A00;
 }
 .middle1,
@@ -30,24 +28,20 @@
 .middle4,
 .middle5,
 .middle6 {
-  grid-area: middle;
   background-color: #16610E;
 }
 .right {
   grid-area: right;
-  width: 15%;
   background-color: #F97A00;
 }
 .nav {
   grid-area: nav;
-  width: 1000px;
   background-color: #16610E;
 }
 .footer {
   grid-area: footer;
   background-color: #16610E;
   padding: 10px;
-  width: 1000px;
 }
 
 
@@ -77,11 +71,16 @@ p {
 @media (max-width: 600px) {
   .grid-container  {
     grid-template-areas: 
-      'nav nav nav nav nav nav'
-      'header header header header header header' 
-      'left left left left left left' 
-      'middle1 middle2 middle3 middle4 middle5 middle6' 
-      'right right right right right right' 
-      'footer footer footer footer footer footer';
+      'nav'
+      'header' 
+      'left' 
+      'middle1' 
+      'middle2'
+      'middle3'
+      'middle4'
+      'middle5'
+      'middle6' 
+      'right' 
+      'footer';
   }
 }
