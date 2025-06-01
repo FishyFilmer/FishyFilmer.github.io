@@ -2,20 +2,21 @@
 .grid-container {
   display: grid;
   grid-template-areas: 
-    'left header header header header right' 
-    'left middle middle middle middle right' 
-    'left footer footer footer footer right';
+  	'left nav nav nav nav nav nav right'
+    'left header header header header header header right' 
+    'left middle middle middle middle middle middle right' 
+    'left footer footer footer footer footer footer right';
 } 
 .header {
   grid-area: header;
   background-color: #f1f1f1;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
-  font-size: 35px;
 }
 .left,
+.right,
 .middle,
-.right {
+.nav {
   padding: 10px;
 }
 .left {
@@ -27,12 +28,18 @@
 .right {
   grid-area: right;
 }
+.nav {
+  grid-area: nav;
+  background-color: #113131;
+}
 .footer {
   grid-area: footer;
   background-color: #f1f1f1;
   padding: 10px;
   text-align: center;
 }
+
+
 h1 {
     color: #FED16A;
 }
@@ -57,9 +64,12 @@ body {
 p {
     color: #FED16A;
 }
+
+
 @media (max-width: 600px) {
   .grid-container  {
     grid-template-areas: 
+      'nav nav nav nav nav nav'
       'header header header header header header' 
       'left left left left left left' 
       'middle middle middle middle middle middle' 
