@@ -16,6 +16,7 @@ body {
     'left middle1 middle2 middle3 middle4 middle5 middle6 right' 
     'left footer footer footer footer footer footer right'
     'left sitemap sitemap sitemap sitemap sitemap sitemap right';
+    width: 100vw;
 } 
 .header {
   grid-area: header;
@@ -41,7 +42,8 @@ body {
 .middle6 {
   background-color: #16610E;
   height: 100vh;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .right {
   grid-area: right;
@@ -110,17 +112,17 @@ li a:hover {
   color: #FED16A;
 }
 
-.submit {
-  background: url("Purchase1.png");
-  height: 120px;
-  width: 120px;
-  object-fit: fill;
+#purchase {
+  height: 150px;
+  width: 350px;
+  border: none;
+  background: url("Purchase1.png") center/cover no-repeat;
 }
-.submit:hover {
-  background-image: url("Purchase2.png");
-  height: 120px;
-  width: 120px;
-  object-fit: fill;
+#purchase:hover {
+  height: 150px;
+  width: 350px;
+  border: none;
+  background-image: url("Purchase2.png")
 }
 
 a:hover {
