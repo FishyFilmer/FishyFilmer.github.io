@@ -9,7 +9,10 @@ body {
   font-family: Garamond;
 }
 .grid-container {
+  min-height: 100vh;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr 1fr auto;
   grid-template-areas: 
     'left nav nav nav nav nav nav right'
     'left header header header header header header right' 
