@@ -199,23 +199,10 @@ input[type="checkbox"]:checked {
 
 img {
   max-width: 100%;
-  height: auto;
 }
 
 @media screen and (max-width: 430px) {
   .grid-container  {
-    grid-template-areas: 
-      'nav'
-      'header' 
-      'left' 
-      'middle1' 
-      'middle2'
-      'middle3'
-      'middle4'
-      'middle5'
-      'middle6' 
-      'right' 
-      'footer'
-      'sitemap';
+    grid-template-columns: ;
   }
 }
