@@ -21,12 +21,12 @@ body {
 .header {
   grid-area: header;
   background-color: #16610E;
+  position: relative;
   height: 10vh;
   width: 80vw;
 }
 .grid-container > div {
   padding: 10px;
-  /* border: 1px dashed yellow; */
 }
 .left {
   grid-area: left;
@@ -42,7 +42,7 @@ body {
 .middle6 {
   background-color: #16610E;
   height: 100vh;
-  overflow-y: auto;
+  overflow: auto;
   overflow-x: hidden;
 }
 .right {
@@ -54,7 +54,11 @@ body {
 .nav {
   grid-area: nav;
   background-color: #16610E;
-  height: 5vh;
+  height: 8vh;
+  background-image: url("Banner.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .footer {
   grid-area: footer;
@@ -68,29 +72,30 @@ body {
 .sitemap {
   grid-area: sitemap;
   background-color: #16610E;
+  position: relative;
   padding: 10px;
 }
 
-ul {
+.nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-ul li {
+.nav ul li {
   float: left;
   border-radius: 4px;
   border: 1px solid #000000;
   background-color: #FFF4A4;
 }
-li a {
+.nav ul li a {
   display: block;
   color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover {
+.nav ul li a:hover {
   background-color: #FED16A;
 }
 .active {
@@ -110,6 +115,10 @@ li a:hover {
 .button:hover {
   background-color: #FFF4A4;
   color: #FED16A;
+}
+
+#shop {
+  border: 3px solid #F97A00;
 }
 
 #purchase {
