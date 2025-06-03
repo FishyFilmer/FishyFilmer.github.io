@@ -26,7 +26,7 @@ body {
 .left {
   grid-area: left;
   background-color: #F97A00;
-  position: relative;
+  float: left;
 }
 .middle1,
 .middle2,
@@ -41,7 +41,7 @@ body {
 .right {
   grid-area: right;
   background-color: #F97A00;
-  position: relative;
+  float: right;
 }
 .nav {
   grid-area: nav;
@@ -217,6 +217,5 @@ img {
       'right' 
       'footer'
       'sitemap';
-      width: 100%;
   }
 }
