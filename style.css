@@ -16,14 +16,14 @@ body {
     'left middle1 middle2 middle3 middle4 middle5 middle6 right' 
     'left footer footer footer footer footer footer right'
     'left sitemap sitemap sitemap sitemap sitemap sitemap right';
-    width: 100vw;
+    width: 100%;
 } 
 .header {
   grid-area: header;
   background-color: #16610E;
   position: relative;
-  height: 10vh;
-  width: 80vw;
+  height: 10%;
+  width: 70%;
 }
 .grid-container > div {
   padding: 10px;
@@ -32,7 +32,7 @@ body {
   grid-area: left;
   background-color: #F97A00;
   position: relative;
-  width: 10vw;
+  width: 10%;
 }
 .middle1,
 .middle2,
@@ -41,7 +41,8 @@ body {
 .middle5,
 .middle6 {
   background-color: #16610E;
-  height: 100vh;
+  height: 60%;
+  width: 70%;
   overflow: auto;
   overflow-x: hidden;
 }
@@ -49,12 +50,12 @@ body {
   grid-area: right;
   background-color: #F97A00;
   position: relative;
-  width: 10vw;
+  width: 15%;
 }
 .nav {
   grid-area: nav;
   background-color: #16610E;
-  height: 8vh;
+  height: 15%;
   background-image: url("Banner.png");
   background-size: auto;
   background-repeat: no-repeat;
@@ -64,6 +65,8 @@ body {
   grid-area: footer;
   background-color: #16610E;
   padding: 10px;
+  height: 10%;
+  width: 70%;
   align-self: left;
   position: relative;
   bottom: 0;
@@ -71,6 +74,8 @@ body {
 }
 .sitemap {
   grid-area: sitemap;
+  height: 10%;
+  width: 70%;
   background-color: #16610E;
   position: relative;
   padding: 10px;
