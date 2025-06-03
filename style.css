@@ -227,5 +227,6 @@ input[type="checkbox"]:checked {
       'right' 
       'footer'
       'sitemap';
+      width: 100%;
   }
 }
