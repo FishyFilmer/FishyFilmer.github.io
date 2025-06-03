@@ -3,13 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-html, body {
-  margin: 0;
-  box-sizing: border-box;
-}
 body {
-  margin: 0;
-  box-sizing: border-box;
   font-family: Garamond;
 }
 .grid-container {
@@ -46,7 +40,7 @@ body {
 .middle6 {
   background-color: #16610E;
   height: 60%;
-  width: 70%;
+  width: auto;
   overflow: auto;
   overflow-x: hidden;
 }
