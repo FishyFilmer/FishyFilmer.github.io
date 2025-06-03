@@ -207,7 +207,7 @@ input[type="checkbox"]:checked {
 }
 
 
-@media (max-width: 600px) {
+@media screen and (max-width: 430px) {
   .grid-container  {
     grid-template-areas: 
       'nav'
