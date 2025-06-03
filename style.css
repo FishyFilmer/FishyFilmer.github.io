@@ -1,4 +1,8 @@
 @charset "utf-8";
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 html, body {
   margin: 0;
   box-sizing: border-box;
@@ -211,6 +215,10 @@ input[type="checkbox"]:checked {
   background-color: #FFF4A4;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 @media screen and (max-width: 430px) {
   .grid-container  {
