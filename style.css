@@ -131,8 +131,8 @@ a:hover {
 }
 
 @keyframes gradient {
-  from {background-color: green;}
-  to {background-color: orange;}
+  from {background-color: #F97A00;}
+  to {background-color: #FED16A;}
 }
 
 h1 {
