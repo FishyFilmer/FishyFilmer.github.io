@@ -135,11 +135,6 @@ a:hover {
   50% {color: #FED16A; left: 50px; top: 0px;}
   100% {color: #F97A00; left: 0px; top: 0px;}
 }
-#animate {
-  animation-name: gradient;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
 
 h1 {
   color: #FED16A;
