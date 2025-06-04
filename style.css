@@ -131,8 +131,9 @@ a:hover {
 }
 
 @keyframes gradient {
-  from {color: #F97A00;}
-  to {color: #FED16A;}
+  0% {color: #F97A00;}
+  75% {color: #FED16A;}
+  100% {color: #F97A00;}
 }
 
 h1 {
