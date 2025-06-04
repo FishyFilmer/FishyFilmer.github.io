@@ -130,12 +130,19 @@ a:hover {
   color: #FFF4A4;
 }
 
+@keyframes gradient {
+  from {background-color: green;}
+  to {background-color: orange;}
+}
+
 h1 {
   color: #FED16A;
   font-weight: lighter;
   font-size: 40px;
   line-height: 48px;
   letter-spacing: normal;
+  animation-name: gradient;
+  animation-duration: 4s;
 }
 h2 {
   color: #FED16A;
